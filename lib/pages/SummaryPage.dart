@@ -10,8 +10,13 @@ class SummaryPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+            backgroundColor: Colors.grey,
+
       appBar: AppBar(
-        title: Text('Summary'),
+                      backgroundColor: Colors.grey,
+
+        title: Text('Summary',style: TextStyle(color:Colors.black,
+        fontWeight: FontWeight.bold),),
       ),
       body: Padding(
         padding: EdgeInsets.all(16),

@@ -1,9 +1,6 @@
 
 import 'package:cat_swipe_app/pages/CatSwipePage.dart';
-import 'package:cat_swipe_app/pages/SummaryPage.dart';
 import 'package:flutter/material.dart';
-import 'package:http/http.dart' as http;
-import 'dart:convert';
 
 class Cat {
   final int index;
@@ -23,6 +20,7 @@ class CatSwipeApp extends StatelessWidget {
       title: 'Paws & Preferences',
       theme: ThemeData(
         primarySwatch: Colors.blue,
+        
       ),
       home: CatSwipePage(),
       debugShowCheckedModeBanner: false,

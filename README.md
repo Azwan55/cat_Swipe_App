@@ -1,16 +1,20 @@
-# cat_swipe_app
+# 🐾 cat_swipe_app
 
-A new Flutter project.
+A Flutter application to swipe through adorable cat images!
 
-## Getting Started
+Follow these steps to set up and run the project:
 
-This project is a starting point for a Flutter application.
+1. **Clone the Repository**
 
-A few resources to get you started if this is your first Flutter project:
+   ```bash
+   git clone <repository-url>
+2. **Open in Code Editor**
+    We recommend using Visual Studio Code for the best experience. In VS Code, click File > Open Folder and select the cloned project folder.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+3. **Get Project Dependencies**
+    open terminal
+    run flutter pub get
+4. **Choose a Device**
+    You can run the app on:
+    Chrome (for web) or any web browser
+    Android/iOS device (physical device or emulator)
